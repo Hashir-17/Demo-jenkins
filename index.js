@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 
 // Home route with EJS rendering
 app.get('/', (req, res) => {
-  res.render('index', { title: 'test node.js app', message: 'Welcome to the enhanced Node.js app with multiple endpoints!' });
+  res.render('index', { title: 'testing node.js app', message: 'Welcome to the enhanced Node.js app with multiple endpoints!' });
 });
 
 // Status route: Shows server status
